@@ -22,5 +22,6 @@ get '/peanuts' do
 end
 
 get '/cat' do
+  @random_names = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
