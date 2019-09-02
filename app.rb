@@ -20,3 +20,9 @@ end
 get '/peanuts' do
   "Elephants..."
 end
+
+get '/cat' do
+  "<div>
+    <img src='http://bit.ly/1eze8aE'>
+  </div>"
+end
